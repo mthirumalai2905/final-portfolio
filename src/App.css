@@ -1,38 +1,208 @@
-.App {
-  text-align: center;
+*{
+    background-color: #131313;
+    font-family: sans-serif;
+    font-weight: 300;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navbar {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    
   }
-  to {
-    transform: rotate(360deg);
+  
+  .nav-item {
+    cursor: pointer;
+    margin: 0 10px; /* Adjust the margin as needed */
   }
+  
+  .home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+  .hero {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+
+  .first{
+    font-size: 60px;
+    background-image: -webkit-linear-gradient(top, #fff 60%, #333 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    padding-bottom: 2px;
+
+  }
+  .second{
+    font-size: 60px;
+    background-image: -webkit-linear-gradient(top, #fff 10%, #F7CA18
+    100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+
+  }
+  p {
+    background-image: -webkit-linear-gradient(top, #fff 60%, #333 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+  @media only screen and (max-width: 768px) {
+    .hero {
+        font-size: 50px;
+    }
+
+    .first,
+    .second {
+        font-size: 40px;
+    }
+}
+
+h1{
+    font-size: 25px;
+    background-image: -webkit-linear-gradient(top, #fff 80%, #333 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    padding-bottom: 2px;
+ 
+}
+
+.about-container {
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.about-title{
+  padding-left: 50px;
+}
+
+.about-description {
+    font-size: 18px;
+    line-height: 1.6;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.skills-title{
+    padding-left: 50px;
+}
+.skills-wrapper {
+    padding-top: 20px;
+    gap: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.skills-wrapper span {
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #333333;
+    background-color: #232323;
+    box-shadow: 0 2px 3px #0000003d;
+    color: white;
+}
+
+.skills-req {
+    padding-top: 20px;
+    gap: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    padding-left: 350px;
+    
+    
+}
+
+.skills-req span {
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #333333;
+    background-color: #232323;
+    box-shadow: 0 2px 3px #0000003d;
+    color: white;
+}
+
+.exp-title{
+    padding-left: 50px;
+}
+
+.exp-dates{
+    padding-left: 50px;
+    color: white;
+}
+.about-exp-title{
+    padding-left: 50px;
+    background-image: -webkit-linear-gradient(top, #fff 80%, #333 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+}
+.exp-1{
+    padding-left: 300px;
+}
+
+.description{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 50px;
+}
+@media screen and (max-width: 600px) {
+    .exp-1 {
+        padding-left: 0; /* Adjust the padding for smaller screens */
+        text-align: center; /* Center the content */
+    }
+
+    .description {
+        padding-left: 0; /* Adjust the padding for smaller screens */
+        text-align: center; /* Center the content */
+    }
+}
+
+
+
+.skills-req span{
+    border: 0.05px solid greenyellow;
+    font-family: sans-serif;
+    padding: 5px;
+    background-color: #1f1f1f;
+    color: greenyellow;
+    font-size: 15px; /* Corrected: add 'px' to font-size */
+    font-weight: 300;
+}
+@media screen and (max-width: 600px) {
+    .skills-req {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Center-aligns the .skills-req container */
+        align-items: center; /* Center-aligns the items vertically */
+    }
+
+    .skills-req span {
+        margin: 5px; /* Adjust the margin for spacing between elements */
+    }
 }
