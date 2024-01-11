@@ -130,7 +130,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     font-size: 14px;
-    padding-left: 350px;
+    padding-left: 50px;
     
     
 }
@@ -206,3 +206,4 @@ h1{
         margin: 5px; /* Adjust the margin for spacing between elements */
     }
 }
+
