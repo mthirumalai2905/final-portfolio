@@ -2,6 +2,8 @@
     background-color: #131313;
     font-family: sans-serif;
     font-weight: 300;
+    
+    
 }
 .navbar {
     display: flex;
@@ -206,4 +208,71 @@ h1{
         margin: 5px; /* Adjust the margin for spacing between elements */
     }
 }
+.projects-container {
+    gap: 20px;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
 
+.projects-headline {
+    font-size: 25px;
+    background-image: -webkit-linear-gradient(top, #fff 80%, #333 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    padding-bottom: 2px;
+    padding-left: 50px;
+}
+
+.projects-wrapper {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 18px;
+    border-radius: 5px;
+    border: 1px solid #2d2d2d;
+    transition: border .2s ease;
+    font-size: 14px;
+    height: 150px;
+    background-color: #1c1c1c;
+    box-shadow: 0 2px 3px #0000003d;
+}
+
+.projects-card-gradient {
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    background: radial-gradient(100% 100% at 0% 0%, hsla(0, 0%, 100%, 0.03), transparent);
+    transition: all 0.1s ease-in;
+}
+
+.projects-card-links {
+    gap: 30px;
+    display: flex;
+    align-self: flex-end;
+}
+
+.projects-card-name {
+    font-weight: 400;
+    margin-top: -100px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+}
+
+.projects-card-languages {
+    display: flex;
+    align-self: center;
+    gap: 15px;
+}
