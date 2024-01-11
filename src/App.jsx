@@ -97,6 +97,45 @@ const App = () => {
           </div>
         </div>
       </div>
+
+      <div className='exp-container'>
+      <h1 className='exp-title'></h1>
+      <div className='exp-item'>
+        <div className='exp-dates'>2023 - present</div>
+      </div>
+      <div className='exp-1'>
+        <h2 className='about-exp-title'>Ampex web - Web Developer</h2>
+        <p className='description'>I'm a 20 year old developer living in Germany. I discovered my passion for coding after seeing my brother do it. I fell in love with using my creativity to build things for the web. I decided to drop out of high school and pursue a coding career, facing challenges along the way. Through persistence, self-discipline, and commitment, I achieved my goal of becoming a fullstack developer. What kept me on this journey is that I always find learning new things exciting and facing unfamiliar challenges. In addition to coding, I enjoy building side projects because it allows me to explore my creativity and accomplish exciting things.</p>
+        <div className='skills-req'>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Javascript</span>
+          <span>PHP</span>
+          <span>Postman</span>
+          <span>Linux</span>
+        </div>
+      </div>
+    </div>
+
+    <div className='exp-container'>
+      <h1 className='exp-title'></h1>
+      <div className='exp-item'>
+        <div className='exp-dates'>2023 - present</div>
+      </div>
+      <div className='exp-1'>
+        <h2 className='about-exp-title'>Verzeo - CyberSecurity</h2>
+        <p className='description'>I'm a 20 year old developer living in Germany. I discovered my passion for coding after seeing my brother do it. I fell in love with using my creativity to build things for the web. I decided to drop out of high school and pursue a coding career, facing challenges along the way. Through persistence, self-discipline, and commitment, I achieved my goal of becoming a fullstack developer. What kept me on this journey is that I always find learning new things exciting and facing unfamiliar challenges. In addition to coding, I enjoy building side projects because it allows me to explore my creativity and accomplish exciting things.</p>
+        <div className='skills-req'>
+          <span>Linux</span>
+          <span>Kali Linux</span>
+          <span>Command Prompt</span>
+          <span>Vulnerability Assesment</span>
+          <span>Network Scanning</span>
+          <span>PHP</span>
+        </div>
+      </div>
+    </div>
+
   
      
       </div>
