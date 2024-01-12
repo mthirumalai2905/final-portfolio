@@ -154,6 +154,7 @@ h1{
 .exp-dates{
     padding-left: 50px;
     color: white;
+    padding-top: 20px;
 }
 .about-exp-title{
     padding-left: 50px;
@@ -173,7 +174,11 @@ h1{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-left: 50px;
+    padding-right: 50px;
 }
+
+
+
 @media screen and (max-width: 600px) {
     .exp-1 {
         padding-left: 0; /* Adjust the padding for smaller screens */
@@ -181,10 +186,20 @@ h1{
     }
 
     .description {
-        padding-left: 0; /* Adjust the padding for smaller screens */
-        text-align: center; /* Center the content */
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: left;
     }
+
+    .about-exp-title{
+        text-align: center;
+        align-self: center;
+        padding: 0px;
+    }
+    
 }
+
+
 
 
 

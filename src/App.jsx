@@ -34,6 +34,7 @@ const App = () => {
           <span>React</span>
           <span>Mongo DB</span>
           <span>MySql</span>
+          <span>SQL</span>
           <span>Firebase</span>
           <span>Express</span>
           <span>Node.js</span>
@@ -68,7 +69,13 @@ const App = () => {
           </div>
           <div className='exp-1'>
             <h2 className='about-exp-title'>Salesine - Full Stack Developer</h2>
-            <p className='description'>I'm a 20 year old developer living in Germany. I discovered my passion for coding after seeing my brother do it. I fell in love with using my creativity to build things for the web. I decided to drop out of high school and pursue a coding career, facing challenges along the way. Through persistence, self-discipline, and commitment, I achieved my goal of becoming a fullstack developer. What kept me on this journey is that I always find learning new things exciting and facing unfamiliar challenges. In addition to coding, I enjoy building side projects because it allows me to explore my creativity and accomplish exciting things.</p>
+            <p className='description'>I underwent a one-month training period at Salesine, where I was exposed to the following tech stacks. Despite facing challenges in completing the assigned tasks, I encountered rejection. However, the experience proved invaluable as I gained significant learning opportunities during this period.
+
+
+
+
+
+            </p>
             <div className='skills-req'>
               <span>Nest.js</span>
               <span>Vue.js</span>
@@ -86,7 +93,8 @@ const App = () => {
         </div>
         <div className='exp-1'>
           <h2 className='about-exp-title'>Pixaflip - UI/UX Designer</h2>
-          <p className='description'>I'm a 20 year old developer living in Germany. I discovered my passion for coding after seeing my brother do it. I fell in love with using my creativity to build things for the web. I decided to drop out of high school and pursue a coding career, facing challenges along the way. Through persistence, self-discipline, and commitment, I achieved my goal of becoming a fullstack developer. What kept me on this journey is that I always find learning new things exciting and facing unfamiliar challenges. In addition to coding, I enjoy building side projects because it allows me to explore my creativity and accomplish exciting things.</p>
+          <p className='description'>
+          I successfully completed the design of Chira Meadows Resort using Figma. Additionally, I implemented a sign-up and login form for the resort using the React framework on the frontend, Express on the backend, and MySQL for data management, all facilitated through Pixaflip.</p>
           <div className='skills-req'>
             <span>Figma</span>
             <span>React</span>
@@ -105,7 +113,14 @@ const App = () => {
       </div>
       <div className='exp-1'>
         <h2 className='about-exp-title'>Ampex web - Web Developer</h2>
-        <p className='description'>I'm a 20 year old developer living in Germany. I discovered my passion for coding after seeing my brother do it. I fell in love with using my creativity to build things for the web. I decided to drop out of high school and pursue a coding career, facing challenges along the way. Through persistence, self-discipline, and commitment, I achieved my goal of becoming a fullstack developer. What kept me on this journey is that I always find learning new things exciting and facing unfamiliar challenges. In addition to coding, I enjoy building side projects because it allows me to explore my creativity and accomplish exciting things.</p>
+        <p className='description'>
+        During my three-month tenure at Amoex Web, I accomplished the development of over five fully functional projects for the company. Moreover, I identified and resolved a critical bug on their FTP server, which was causing issues with loading images from the school gallery on various web browsers.
+        
+        
+        
+        
+        
+        </p>
         <div className='skills-req'>
           <span>HTML</span>
           <span>CSS</span>
@@ -124,7 +139,7 @@ const App = () => {
       </div>
       <div className='exp-1'>
         <h2 className='about-exp-title'>Verzeo - CyberSecurity</h2>
-        <p className='description'>I'm a 20 year old developer living in Germany. I discovered my passion for coding after seeing my brother do it. I fell in love with using my creativity to build things for the web. I decided to drop out of high school and pursue a coding career, facing challenges along the way. Through persistence, self-discipline, and commitment, I achieved my goal of becoming a fullstack developer. What kept me on this journey is that I always find learning new things exciting and facing unfamiliar challenges. In addition to coding, I enjoy building side projects because it allows me to explore my creativity and accomplish exciting things.</p>
+        <p className='description'>During my two-month tenure as a cybersecurity intern at Verzeo, I was assigned various websites and model software to test for vulnerabilities. My responsibilities included identifying security weaknesses and proposing effective measures to address and mitigate those vulnerabilities.</p>
         <div className='skills-req'>
           <span>Linux</span>
           <span>Kali Linux</span>
