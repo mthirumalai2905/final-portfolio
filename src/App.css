@@ -315,7 +315,6 @@ h1{
     font-size: 15px; /* Corrected: add 'px' to font-size */
     font-weight: 300;
     font-weight: 400;
-    text-transform: uppercase;
     font-size: 12px;
     font-family: sans-serif;
     padding-bottom: 2px;
@@ -339,4 +338,180 @@ h1{
         justify-content: center; /* Center links for mobile */
     }
 }
+.blogs-container {
+    gap: 20px;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
 
+.blogs-headline {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 50px;
+    background-image: -webkit-linear-gradient(top, #fff 80%, #333 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    padding-bottom: 2px;
+}
+
+.blogs-wrapper {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: start;
+   
+   
+}
+.blogs-card-wrapper-minutes {
+    gap: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.blogs-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-bottom:0px;
+    padding-left: 30px;
+    border-radius: 5px;
+    border: 1px solid #2d2d2d;
+    transition: border .2s ease;
+    font-size: 14px;
+    height: 150px;
+    background-color: #1c1c1c;
+    box-shadow: 0 2px 3px #0000003d;
+    text-align: left; /* Align text to the left */
+}
+
+
+
+.blogs-details {
+    margin-bottom: 20px;
+    text-align: center; /* Center content horizontally */
+}
+
+.blogs-card-gradient {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: radial-gradient(100% 100% at 0% 0%, hsla(0, 0%, 100%, 0.03), transparent);
+    transition: all 0.1s ease-in;
+}
+
+.blogs-card-links {
+    gap: 30px;
+    display: flex;
+    align-self: flex-end;
+}
+
+.blogs-card-name {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0; /* Remove margin to prevent extra space */
+    background-image: -webkit-linear-gradient(top, #fff 80%, #333 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    padding-bottom: 2px;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.blogs-card-languages {
+    display: flex;
+    align-self: center;
+    gap: 15px;
+}
+
+
+.blogs-card-languages span {
+   
+    font-size: 15px; /* Corrected: add 'px' to font-size */
+    font-weight: 300;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-bottom: 2px;
+    border: 0.05px solid greenyellow;
+    font-family: sans-serif;
+    padding: 5px;
+    background-color: #1f1f1f;
+    color: greenyellow;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .blogs-wrapper {
+        grid-template-columns: 1fr; /* Change to a single column for mobile */
+        padding-left: 20px; /* Adjust padding for mobile */
+        padding-right: 20px; /* Adjust padding for mobile */
+    }
+
+    .blogs-card-links {
+        align-self: center;
+        justify-content: center; /* Center links for mobile */
+    }
+}
+
+.blogs-card p{
+    font-size: 15px;
+
+
+}
+.footer-social a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-social a:hover {
+    color: #F7CA18; /* Specify the desired hover color */
+}
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    padding: 30px 0;
+    border-top: 1px solid #2d2d2d;
+    margin-top: 30px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-social a:hover {
+    color: your-hover-color; /* Specify the desired hover color */
+}
+::selection {
+    background-color: yellow;
+    text-shadow: 0 0 1px black;
+    color: black;
+    opacity: 1; /* Set the text color to contrast with the background */
+}
+.footer span{
+    color: white;
+}
+.footer {
+    font-size: 12px;
+}
