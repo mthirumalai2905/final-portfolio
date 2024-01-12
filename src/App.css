@@ -5,26 +5,7 @@
     
     
 }
-.navbar {
-    display: flex;
-    justify-content: center;
-    color: white;
-    padding: 10px;
-  }
-  
-  .nav-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    
-    
-  }
-  
-  .nav-item {
-    cursor: pointer;
-    margin: 0 10px; /* Adjust the margin as needed */
-  }
+
   
   .home {
     display: flex;

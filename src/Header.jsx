@@ -4,29 +4,24 @@ import './App.css'
 const Header = () => {
   return (
     <div>
-    <div className='navbar'>
-    <nav>
-      <ul className='nav-list'>
-        <li className='nav-item'>Home</li>
-        <li className='nav-item'>About</li>
-        <li className='nav-item'>Project</li>
-        <li className='nav-item'>Blog</li>
-      </ul>
-    </nav>
-  </div>
+    
 
   <div className='home'>
-    <h1 className='hero'>
-      <span className='first'>Hello. I'm Thirumalai.</span>
-      <span className='second'>Your Digital Artisan.</span>
-      <p>I'm passionate about creating experiences that are easy to use, accessible, and that meet the user's needs</p>
-    </h1>
-  </div>
+  <h1 className='hero'>
+    <span className='first'>Hello. I'm Thirumalai.</span>
+    <span className='second'>Your Digital Artisan.</span>
+    <p>I'm passionate about creating experiences that are easy to use, accessible, and that meet the user's needs</p>
+  </h1>
+</div>
 
-  <div className='about-container'>
-    <h1 className='about-title'>About</h1>
-    <p className='about-description'>I'm a 20 year old developer living in Germany. I discovered my passion for coding after seeing my brother do it. I fell in love with using my creativity to build things for the web. I decided to drop out of high school and pursue a coding career, facing challenges along the way. Through persistence, self-discipline, and commitment, I achieved my goal of becoming a fullstack developer. What kept me on this journey is that I always find learning new things exciting and facing unfamiliar challenges. In addition to coding, I enjoy building side projects because it allows me to explore my creativity and accomplish exciting things.</p>
-  </div>
+<div className='about-container'>
+  <h1 className='about-title'>About</h1>
+  <p className='about-description'>Embarking on the journey of a 20-year-old explorer, I find myself fascinated by the intricate world of coding and design. In the era when my fingertips were yet to touch the keyboard, I wandered through the digital landscapes, marveling at the masterpieces created by coding virtuosos.
+    Now, as I wield the power of code, I weave my own digital tapestries, fueled by a passion to innovate and create. With each line of code, I breathe life into ideas and craft experiences that transcend the ordinary.
+    My journey is a testament to the transformative magic of technology. From a curious observer to an avid creator, I embrace the challenges of this ever-evolving realm, driven by the quest to turn dreams into digital reality.
+    Join me in this odyssey where every keystroke is a brushstroke, and every project is a canvas waiting to be painted. Let's build the future, one line of code at a time.
+  </p>
+</div>
 
   <div className='skills-container'>
     <h1 className='skills-title'>Skillset</h1>
@@ -65,4 +60,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;
