@@ -147,6 +147,7 @@ h1{
 }
 
 .exp-title{
+    padding-top: 20px;
     padding-left: 50px;
 }
 
@@ -202,10 +203,12 @@ h1{
         flex-wrap: wrap;
         justify-content: center; /* Center-aligns the .skills-req container */
         align-items: center; /* Center-aligns the items vertically */
+        padding-right: 55px;
     }
 
     .skills-req span {
         margin: 5px; /* Adjust the margin for spacing between elements */
+        
     }
 }
 .projects-container {
@@ -217,18 +220,21 @@ h1{
 
 .projects-headline {
     font-size: 25px;
+    font-weight: 400;
+    padding: 50px;
     background-image: -webkit-linear-gradient(top, #fff 80%, #333 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: sans-serif;
     padding-bottom: 2px;
-    padding-left: 50px;
 }
 
 .projects-wrapper {
     gap: 10px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .projects-card {
@@ -236,7 +242,7 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: start;
+    align-items: center; /* Center content horizontally */
     padding: 18px;
     border-radius: 5px;
     border: 1px solid #2d2d2d;
@@ -247,11 +253,16 @@ h1{
     box-shadow: 0 2px 3px #0000003d;
 }
 
+.project-details {
+    margin-bottom: 20px;
+    text-align: center; /* Center content horizontally */
+}
+
 .projects-card-gradient {
     top: 0;
     left: 0;
-    width: 150px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     position: absolute;
     background: radial-gradient(100% 100% at 0% 0%, hsla(0, 0%, 100%, 0.03), transparent);
     transition: all 0.1s ease-in;
@@ -265,10 +276,16 @@ h1{
 
 .projects-card-name {
     font-weight: 400;
-    margin-top: -100px;
     text-transform: uppercase;
-    font-size: 14px;
-    color: white;
+    font-size: 20px;
+    margin: 0; /* Remove margin to prevent extra space */
+    background-image: -webkit-linear-gradient(top, #fff 80%, #333 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    padding-bottom: 2px;
+    text-decoration: none;
+    color: inherit;
 }
 
 .projects-card-languages {
@@ -276,3 +293,35 @@ h1{
     align-self: center;
     gap: 15px;
 }
+
+
+.projects-card-languages span {
+   
+    font-size: 15px; /* Corrected: add 'px' to font-size */
+    font-weight: 300;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-bottom: 2px;
+    border: 0.05px solid greenyellow;
+    font-family: sans-serif;
+    padding: 5px;
+    background-color: #1f1f1f;
+    color: greenyellow;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .projects-wrapper {
+        grid-template-columns: 1fr; /* Change to a single column for mobile */
+        padding-left: 20px; /* Adjust padding for mobile */
+        padding-right: 20px; /* Adjust padding for mobile */
+    }
+
+    .projects-card-links {
+        align-self: center;
+        justify-content: center; /* Center links for mobile */
+    }
+}
+
