@@ -10,7 +10,7 @@ const Header = () => {
   <h1 className='hero'>
     <span className='first'>Hello. I'm Thirumalai.</span>
     <span className='second'>Your Digital Artisan.</span>
-    <p>I'm passionate about creating experiences that are easy to use, accessible, and that meet the user's needs</p>
+    <p>I thrive on creating user-friendly and accessible experiences that meet diverse needs with ease</p>
   </h1>
 </div>
 
@@ -18,7 +18,6 @@ const Header = () => {
   <h1 className='about-title'>About</h1>
   <p className='about-description'>Embarking on the journey of a 20-year-old explorer, I find myself fascinated by the intricate world of coding and design. In the era when my fingertips were yet to touch the keyboard, I wandered through the digital landscapes, marveling at the masterpieces created by coding virtuosos.
     Now, as I wield the power of code, I weave my own digital tapestries, fueled by a passion to innovate and create. With each line of code, I breathe life into ideas and craft experiences that transcend the ordinary.
-    My journey is a testament to the transformative magic of technology. From a curious observer to an avid creator, I embrace the challenges of this ever-evolving realm, driven by the quest to turn dreams into digital reality.
     Join me in this odyssey where every keystroke is a brushstroke, and every project is a canvas waiting to be painted. Let's build the future, one line of code at a time.
   </p>
 </div>
