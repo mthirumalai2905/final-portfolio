@@ -3,8 +3,11 @@ import './Navbar.css'; // Import your CSS file for styling
 
 const Navbar = () => {
  
+    
 
   return (
+    
+
     <div className='nav'>
       <div className='nav-links-filled'>
        <span className='nav-links-item'>Home</span>
