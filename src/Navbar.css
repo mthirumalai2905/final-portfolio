@@ -72,3 +72,19 @@
     transition: transform .3s cubic-bezier(.34, 1.56, .64, 1);
 }
 
+/* Regular styles for navbar */
+
+@media only screen and (max-width: 768px) {
+    /* Styles for screens with a maximum width of 768px or smaller (e.g., mobile devices) */
+    .nav {
+      padding: 10px 0; /* Adjust the padding as needed for smaller screens */
+    }
+  
+    .nav-links-item {
+      font-size: 14px; /* Adjust font size for smaller screens */
+      padding: 10px 10px; /* Adjust padding for smaller screens */
+    }
+  
+    /* Add any additional styles or overrides for smaller screens */
+  }
+  
