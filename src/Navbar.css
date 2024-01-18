@@ -1,0 +1,74 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    margin-top: 2px;
+    justify-content: center;
+    align-items: center;
+    -webkit-user-select: none;
+    user-select: none;
+    transition: background 0.3s ease, backdrop-filter 0.3s ease, border 0.3s ease; /* Add transition for background, backdrop-filter, and border change */
+    background: none; /* Initial transparent background */
+    border: none; /* Initial transparent border */
+    padding: 13px 0; /* Adjust the padding as needed */
+}
+
+.nav-scrolled {
+    background: rgba(0, 0, 0, 0.1); /* Add a subtle background when scrolled */
+    border: 1px solid white; /* Add border when scrolled */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.nav-links-filled {
+    background: rgba(114, 114, 114, .2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid white;
+    box-shadow: 0 2px 10px #0000001a;
+}
+
+.nav-links, .nav-links-filled {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    transition: all .2s ease;
+    position: relative;
+}
+
+.nav-links-item {
+    cursor: pointer;
+    transition: color .2s ease; /* Only transition the color property */
+    font-size: 16px;
+    z-index: 2;
+    padding: 15px 15px; /* Adjust the padding as needed */
+    margin: 0 5px;
+    font-weight: 300;
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    color: white;
+}
+
+.nav-links-filled .nav-links-item,
+.nav-links-filled .nav-links-item.contact {
+    color: #fff;
+}
+
+.nav-links-filled .nav-slider {
+    background: rgba(79, 79, 79, .4);
+}
+
+.nav-slider {
+    position: absolute;
+    left: 5px;
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    background: rgba(79, 79, 79, .25);
+    transition: transform .3s cubic-bezier(.34, 1.56, .64, 1);
+}
+

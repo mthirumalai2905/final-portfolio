@@ -7,7 +7,7 @@ const Experience = () => {
     <div className='exp-container'>
     <h1 className='exp-title'>Experiences</h1>
     <div className='exp-item'>
-      <div className='exp-dates'>Dec 2023 - Jan 2023</div>
+      <div className='exp-dates'>Dec 2023  -  Jan 2024</div>
     </div>
     <div className='exp-1'>
       <h2 className='about-exp-title'>Salesine - Full Stack Developer</h2>
@@ -31,7 +31,7 @@ const Experience = () => {
   <div className='exp-container'>
   <h1 className='exp-title'></h1>
   <div className='exp-item'>
-    <div className='exp-dates'>Nov 2023 - Dec - 2023</div>
+    <div className='exp-dates'>Nov 2023  -  Dec 2023</div>
   </div>
   <div className='exp-1'>
     <h2 className='about-exp-title'>Pixaflip - UI/UX Designer</h2>
@@ -51,7 +51,7 @@ const Experience = () => {
 <div className='exp-container'>
 <h1 className='exp-title'></h1>
 <div className='exp-item'>
-  <div className='exp-dates'>Sept 2023 - Dec - 2023</div>
+  <div className='exp-dates'>Sept 2023  -  Dec 2023</div>
 </div>
 <div className='exp-1'>
   <h2 className='about-exp-title'>Ampex web - Web Developer</h2>
@@ -77,7 +77,7 @@ const Experience = () => {
 <div className='exp-container'>
 <h1 className='exp-title'></h1>
 <div className='exp-item'>
-  <div className='exp-dates'>2023 - present</div>
+  <div className='exp-dates'>Sept 2022  -  Nov 2022</div>
 </div>
 <div className='exp-1'>
   <h2 className='about-exp-title'>Verzeo - CyberSecurity</h2>
@@ -93,36 +93,6 @@ const Experience = () => {
 </div>
 </div>
 
-<div className='projects-container'>
-<h2 className='projects-headline'>Projects</h2>
-<div className='projects-wrapper'>
-<div href="" className='projects-card'target='_blank'>
-<div className='projects-card-gardient'></div>
-<div className='projects-card-links'></div>
-<h3 className='projects-card-name'>Imdb Clone</h3>
-<div className='projects-card-languages'><span>React</span><span>Firebase</span><span>API</span></div>
-</div>
-<div href="" className='projects-card'target='_blank'>
-<div className='projects-card-gardient'></div>
-<div className='projects-card-links'></div>
-<h3 className='projects-card-name'>Sketch App</h3>
-<div className='projects-card-languages'><span>React</span><span>Rough.js</span></div>
-</div>
-<div href="" className='projects-card'target='_blank'>
-<div className='projects-card-gardient'></div>
-<div className='projects-card-links'></div>
-<h3 className='projects-card-name'>Blog App</h3>
-<div className='projects-card-languages'><span>React</span><span>Mongo DB</span><span>Express</span><span>Node.js</span></div>
-</div>
-<div href="" className='projects-card'target='_blank'>
-<div className='projects-card-gardient'></div>
-<div className='projects-card-links'></div>
-<h3 className='projects-card-name'>Project 4</h3>
-<div className='projects-card-languages'><span>React</span><span>Firebase</span></div>
-</div>
-</div>
-
-</div>
     </div>
   )
 }
