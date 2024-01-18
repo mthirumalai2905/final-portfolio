@@ -78,7 +78,7 @@
     /* Styles for screens with a maximum width of 768px or smaller (e.g., mobile devices) */
     .nav {
       padding: 10px 0; /* Adjust the padding as needed for smaller screens */
-      padding-top: 12px;
+      padding-top: 10px;
     }
   
     .nav-links-item {
