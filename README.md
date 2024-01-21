@@ -36,4 +36,4 @@ This is the source code for my personal portfolio website. It is designed to pre
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/mthirumalai2905/final-portfolio.git
