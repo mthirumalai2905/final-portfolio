@@ -28,7 +28,7 @@ const Project = () => {
             <div className='projects-card-languages'><span>React</span><span>Rough.js</span></div>
           </div>
 
-          <div className='projects-card' onClick={() => redirectToProject('URL_FOR_BLOG_APP')} target='_blank'>
+          <div className='projects-card' onClick={() => redirectToProject('https://github.com/mthirumalai2905/mern-blog-app')} target='_blank'>
             <div className='projects-card-gardient'></div>
             <div className='projects-card-links'></div>
             <h3 className='projects-card-name'>Blog App</h3>
