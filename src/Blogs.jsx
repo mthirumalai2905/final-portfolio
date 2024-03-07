@@ -10,7 +10,7 @@ const Blogs = () => {
   return (
     <div>
       
-    <h2 className='blogs-headline'>I Write At</h2>
+    <h2 className='blogs-headline' id='Blog'>I Write At</h2>
     <div className='blogs-container'>
      <div className='blogs-wrapper'>
      <div href="" className='blogs-card'target='_blank' onClick={() => redirectToSocial('https://tthirruu.hashnode.dev/mongoshell-with-postman')}>

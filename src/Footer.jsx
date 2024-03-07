@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <div>
-      <footer className='footer'>
+      <footer className='footer' id='Connect'>
         <span> &copy; &nbsp;
         {currentYear} Thirumalai</span>
         <div className='footer-social'>

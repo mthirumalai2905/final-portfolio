@@ -9,7 +9,7 @@ const Project = () => {
 
   return (
     <div>
-      <div className='projects-container'>
+      <div className='projects-container' id='Work'>
         <h2 className='projects-headline'>Projects</h2>
         <div className='projects-wrapper'>
           {/* Use onClick to trigger redirection */}

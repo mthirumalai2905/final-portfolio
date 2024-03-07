@@ -506,3 +506,24 @@ h1{
 .footer {
     font-size: 12px;
 }
+.nav-links-filled{
+    padding: 18px;
+    gap: 50px;
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    background: transparent;
+}
+a{
+    text-decoration: none;
+    color: #c9c9c9;
+    background: transparent;
+}
+a:hover{
+    background-color: #3e3e3e;
+    padding: 10px;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

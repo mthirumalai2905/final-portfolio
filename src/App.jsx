@@ -10,6 +10,7 @@ import Project from './Project';
 const App = () => {
     return (
       <div>
+       <Navbar />
        <Header />
        <Experience />
        <Project />

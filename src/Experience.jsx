@@ -4,7 +4,7 @@ import './App.css'
 const Experience = () => {
   return (
     <div>
-    <div className='exp-container'>
+    <div className='exp-container' id='Experience'>
     <h1 className='exp-title'>Experiences</h1>
     <div className='exp-item'>
       <div className='exp-dates'>Dec 2023  -  Jan 2024</div>
