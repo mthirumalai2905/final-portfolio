@@ -46,6 +46,7 @@ const Header = () => {
     <span>PHP</span>
     <span>Data Structures</span>
     <span>Javascript</span>
+    <span>Typescript</span>
     <span>Algorithms</span>
     <span>Java</span>
     <span>Linux</span>
