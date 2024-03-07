@@ -508,6 +508,8 @@ h1{
 }
 .nav-links-filled{
     padding: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     gap: 50px;
     font-size: 20px;
 }
