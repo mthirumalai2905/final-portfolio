@@ -534,5 +534,6 @@ a:hover{
       font-size: 15px;
       padding-left: 20px;
       padding-right: 20px;
+      scale: 0.9;
     }
   }
