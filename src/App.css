@@ -527,3 +527,10 @@ a:hover{
     padding-left: 10px;
     padding-right: 10px;
 }
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .nav-links-filled {
+      padding: 10px;
+      font-size: 16px;
+    }
+  }
